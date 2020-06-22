@@ -1,8 +1,11 @@
+
+##imports
 import os
 from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-        
+
+##class and function to login on Github
 class HomePage:
     def __init__(self, browser):
         self.browser = browser
@@ -15,6 +18,7 @@ class HomePage:
         sing_in_button = browser.find_element_by_xpath('/html/body/div[3]/main/div/form/div[4]/input[9]')
         sing_in_button.click()
 
+##class and function to create a new repository on Github
 class NewRepository:
     def create_new_repository(project_name, description, privacy):
         browser.get ('https://github.com/new')
@@ -38,7 +42,7 @@ class NewRepository:
         create_repository = browser.find_element_by_xpath('/html/body/div[4]/main/div/form/div[4]/button')
         create_repository.click()
 
-        
+##class and function to create a folder on a directory and a .py file
 class CreateProject:
     def create_folder_and_file(project_name):
         path = '<your directory>'+ project_name
@@ -52,7 +56,7 @@ class CreateProject:
 
         open(path+'\\'+ project_name +'.py','w+')
             
- 
+##inputs and function calls
 browser = webdriver.Firefox()
 sleep (15)
 home_page = HomePage(browser)
