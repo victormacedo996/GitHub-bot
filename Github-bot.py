@@ -26,7 +26,7 @@ class NewRepository:
         repository_name.send_keys(project_name)
         description_input = browser.find_element_by_xpath ('//*[@id="repository_description"]')
         description_input.send_keys(description)
-        if privacy == 's':
+        if privacy == 'y':
             mark_public = browser.find_element_by_xpath('//*[@id="repository_visibility_public"]')
             mark_public.click()
         else:
