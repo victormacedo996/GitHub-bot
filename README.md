@@ -31,15 +31,15 @@
   
   Once the code is running it'll ask for a few inputs:
   
-  • "What are we making today?" - Just enter the name of the project you're creating. This will be the name of the repository, the name of the folder and the name of the ".py" file.
-  
-  • "Enter your login" - Just type your login on GitHub, or change the variable to your GitHub's login.
-  
-  • "Enter your password" - Just type your password on GitHub, or change the variable to your GitHub's password.
-  
-  • "Whats the description of the repository" - This will be the description of the repository, once it creates a repository with a Readme file this variable will be it's content either.
-  
-  • "Is the repository public?" - This is where you choose between a publibic repository and a private repository. To make a public repository use YES as "y", and NO as "n".
+    • "What are we making today?" - Just enter the name of the project you're creating. This will be the name of the repository, the name of the folder and the name of the ".py" file.
+
+    • "Enter your login" - Just type your login on GitHub, or change the variable to your GitHub's login.
+
+    • "Enter your password" - Just type your password on GitHub, or change the variable to your GitHub's password.
+
+    • "Whats the description of the repository" - This will be the description of the repository, once it creates a repository with a Readme file this variable will be it's content either.
+
+    • "Is the repository public?" - This is where you choose between a publibic repository and a private repository. To make a public repository use YES as "y", and NO as "n".
   
 
 5 - Contributions, issues and forking
@@ -59,24 +59,24 @@
 
 Install Selenium:
 
-  • pip install selenium
-  
-  • https://pypi.org/project/selenium/
+    • pip install selenium
+
+    • https://pypi.org/project/selenium/
   
 
 Download and install Firefox developer:
 
-  • homepage: https://www.mozilla.org/pt-BR/firefox/developer/
+    • homepage: https://www.mozilla.org/pt-BR/firefox/developer/
   
 
 Links for the web drivers to use with Selenium
 
-  • Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads
-  
-  • Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
-  
-  • *Firefox: https://github.com/mozilla/geckodriver/releases* - This is what you need
-  
-  • Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10/
+    • Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads
+
+    • Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+
+    • *Firefox: https://github.com/mozilla/geckodriver/releases* - This is what you need
+
+    • Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10/
   
 
